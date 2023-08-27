@@ -2,8 +2,8 @@ import os
 import shutil
 
 # Path to your Downloads folder
-downloads_folder = "C:\Users\false\Downloads"
-meme_folder = "C:\Users\false\Downloads\meme"
+downloads_folder = r"C:\Users\false\Downloads"  # Use 'r' before the string to create a raw string
+meme_folder = r"C:\Users\false\Downloads\meme"
 
 # Ensure the meme folder exists
 if not os.path.exists(meme_folder):
